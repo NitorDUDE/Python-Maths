@@ -9,12 +9,13 @@ Blue = '\033[34m'
 Magenta = '\033[35m'
 Purple = '\033[36m'
 White = '\033[37m'
-
+def cls():
+ os.system("cls") if os.name=='nt' else os.system("clear")
 def writeway(text,delay):
   for good in text:
     print(good,end='',flush=True)
     time.sleep(delay)
-os.system("cls")
+cls()
 eye=f'''{Red}
                   ████████████████████████            
               ████████████████████      ██████        
@@ -42,8 +43,6 @@ ______ ___.__._/  |_|  |__   ____   ____             _____ _____ _/  |_|  |__
 '''
 writeway(eye,0.003)
 wt = f"{Red}PLEASE WAIT A WHILE!!{White}"
-def cls():
- os.system("cls") if os.name=='nt' else os.system("clear")
 
 cls()
 print(eye)
