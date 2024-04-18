@@ -110,8 +110,8 @@ def loop():
                         time.sleep(0.5)
                         cls()
                         print(banner)
-                        r=int(input("ENTER THE RADIOUS:"))
-                        print(f"PERIMETER OF CERCLE IS{2*3.14*r}")
+                        r=int(input(f"{Red}ENTER THE RADIOUS:"))
+                        print(f"{Green}PERIMETER OF CERCLE IS{Red}{2*3.14*r}{White}")
                         time.sleep(15)
                         loop()
                     elif ch==4:
