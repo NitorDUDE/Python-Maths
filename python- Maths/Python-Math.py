@@ -53,7 +53,7 @@ def loop():
         print(banner)
         print()
         print(f"{Red}---MENU---{White}")
-        print(f"{Blue}-1.PERIMETER")
+        print(f"{Blue}-1.perimeter")
         print("-2.area")
         print("-3.volume")
         print("-4.help")
